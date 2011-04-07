@@ -34,14 +34,14 @@ Place the personalized `regions4.js.php` into the `web_assets` folder, or your h
 
 Edit the `regions5.js.php` in a text editor:
     
-    $file = file('<serverdir>\plugins\WorldGuard\regions.txt.old'); //regions.txt    
-    $color_chestdeny = "#880000"; // what color should the region be when the flag chestaccess-deny is found?    
+    $yml = @'<serverdir>\plugins\WorldGuard\worlds\<worldname>\regions.yml';  //regions.yml
+    $color_chestdeny = "#880000"; // what color should the region be when the flag chestaccess-deny is found?
     $color_normal = "#FFAA00"; // what color should normal regions be colored as?
     
 Reference the regions5.js.php in Overviewer by locating in your index.html (Default location for this is in the `web_assets` folder in your Overviewer directory). Replace the first line with the second line below.
 
     - <script type="text/javascript" src="regions.js"></script>
-    + <script type="text/javascript" src="regions4.js.php"></script>
+    + <script type="text/javascript" src="regions5.js.php"></script>
     
 Place the personalized `regions5.js.php` and the `spyc.php` file into the `web_assets` folder, or your html folder where your overviewer map files are accessed.
 
