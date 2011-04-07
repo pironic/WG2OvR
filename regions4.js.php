@@ -1,5 +1,5 @@
 <?php 
-    $file = file('<serverdir>\plugins\WorldGuard\regions.txt.old'); //regions.txt
+    $txt = file('<serverdir>\plugins\WorldGuard\regions.txt'); //regions.txt
     $color_chestdeny = "#880000"; // what color should the region be when the flag chestaccess-deny is found?
     $color_normal = "#FFAA00"; // what color should normal regions be colored as?
     $debug = false; // will break overviewer, but show the contents of the arrays... debuging only.
@@ -11,7 +11,7 @@
     $output .= "var regionData=[\n";
     
     $debug = false;
-    foreach ($file as $line_num => $line) {
+    foreach ($txt as $line_num => $line) {
         $values = explode('","',$line);
         
         $values[0] = substr($values[0],1);

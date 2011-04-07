@@ -50,4 +50,4 @@ Place the personalized `regions5.js.php` and the `spyc.php` file into the `web_a
 Support
 -------
 
-Personal inquires can be opened in the issues tab above, or join us on irc.freenode.net in [[#overviewer|http://webchat.freenode.net?channels=overviewer]]!
+Any inquires can be opened in the issues tab above, or join us on irc.freenode.net in [#overviewer](http://webchat.freenode.net?channels=overviewer)!
