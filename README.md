@@ -1,6 +1,8 @@
 WG2OvR - WorldGuard 2 Overviewer Regions generation.
 =============
 
+![WG2OvR](http://i.imgur.com/DLD8W.jpg)
+
 A simple php exporter of the WorldGuard regions formats into the Overviewer regions format. This script will generate visible isometric cubes on their Overviewer maps of where their WorldGaurd/WorldEdit regions are.
 
 Requirements
